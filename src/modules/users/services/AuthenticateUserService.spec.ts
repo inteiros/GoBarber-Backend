@@ -72,7 +72,7 @@ describe('AuthenticateUser', () => {
         expect(
             authenticateUser.execute({
                 email: 'johndoe@example.com',
-                password: '123456',
+                password: 'wrong-password',
             }),
         ).rejects.toBeInstanceOf(AppError);
     });
