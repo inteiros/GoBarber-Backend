@@ -3,6 +3,9 @@ coverage/
 .idea/
 .vscode/
 build/
+.env
+ormconfig.json
+
 temp/
 tmp/*
 !tmp/.gitkeep
