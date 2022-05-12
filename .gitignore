@@ -5,6 +5,7 @@ coverage/
 build/
 .env
 ormconfig.json
+dist
 
 temp/
 tmp/*
